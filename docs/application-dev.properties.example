@@ -1,0 +1,6 @@
+# Copy to src/main/resources/application-dev.properties on your computer.
+spring.datasource.url=jdbc:postgresql://localhost:${DB_PORT:5432}/videogame_store
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWORD}
+server.address=127.0.0.1
+server.port=8080

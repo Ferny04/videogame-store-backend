@@ -1,0 +1,13 @@
+package com.merida.tecnm.videogame_store_backend;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class VideogameStoreBackendApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

@@ -1,0 +1,4 @@
+# Copy to src/main/resources/application-pdn.properties if you use the pdn profile.
+spring.datasource.url=jdbc:postgresql://${DB_HOST}:${DB_PORT:5432}/${DB_NAME}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWORD}
