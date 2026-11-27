@@ -16,7 +16,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-@Profile("dev")
+@Profile("dev & !pdn")
 @ConditionalOnProperty(name = "catalog.auth.password")
 public class CatalogSecurityConfig {
 
